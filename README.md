@@ -3,7 +3,8 @@
 ## "Work in Progress"
 
 
-![picture1](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/marjanblan-8I-ht65iRww-unsplash (1).jpg)
+![picture1](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg)
+
 
 *Superheros come to save the day! Source: Marjan Blan, unsplash.com*
 
@@ -93,7 +94,7 @@ Using the TfidfVectorizer along with my nltk cleaning that was somehow joined ag
 There is so much more I want to do! I still have a lot to learn about text pre-processing - including how to put it all into a nice easy function. I still need to clean out emoji's and other types of tweet junk.
 
 
-![Picture4](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg)
+![Picture3](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/marjanblan-8I-ht65iRww-unsplash%20(1).jpg)
 
 *Is this one of the good guys! Source: Yulia Matvienko, unsplash.com*
 
