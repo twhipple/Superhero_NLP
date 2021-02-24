@@ -3,9 +3,9 @@
 ## "Work in Progress"
 
 
-![picture1](https://raw.githubusercontent.com/twhipple/Disaster_Tweets_NLP/main/Images/michael-chacon-wRw3L6hwB2E-unsplash.jpg)
+![picture1](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/marjanblan-8I-ht65iRww-unsplash (1).jpg)
 
-*Forest fires wreaking havoc! Source: Michael Chacon, unsplash.com*
+*Superheros come to save the day! Source: Marjan Blan, unsplash.com*
 
 
 ## Intro
@@ -25,9 +25,9 @@ A Natural Language Processing Model based on a dataset from Kaggle Kernels.
 * Built With, Contributors, Authors, Acknowledgments
 
 
-![picture2](https://raw.githubusercontent.com/twhipple/Disaster_Tweets_NLP/main/Images/noaa-Zus94oboIsM-unsplash.jpg)
+![picture2](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/marjanblan-_CjdyBNNVio-unsplash.jpg)
 
-*Tornado causing destruction. Source: Noaa Zus, Unsplash.com*
+*Using 'text' not 'photographs' to determine who is who in the hero world! Source: Marjan Blan, Unsplash.com*
 
 
 ## Repo Contents
@@ -89,18 +89,13 @@ I first tried to separate all the words in the text file, then get rid of number
 Using the TfidfVectorizer along with my nltk cleaning that was somehow joined again to a string I was able to improve my testing accuracy for the Naive Bayes which went from 79.94% to 80.51%. The Random Forest testing accuracy also went up from 77.73% to 78.83%. Neither are great and both are only slight improvements, but nevertheless heading in the right direction. I still have some more cleaning issues to deal with - since a bunch of the word vectors seemed to be just letters.
 
 
-![Picture3](https://raw.githubusercontent.com/twhipple/Disaster_Tweets_NLP/main/Images/my_submission_score.png)
-
-*My first submission score for this Kaggle competition!*
-
-
 ## Future Work
 There is so much more I want to do! I still have a lot to learn about text pre-processing - including how to put it all into a nice easy function. I still need to clean out emoji's and other types of tweet junk.
 
 
-![Picture4](https://raw.githubusercontent.com/twhipple/Disaster_Tweets_NLP/main/Images/chris-gallagher-4zxp5vlmvnI-unsplash.jpg)
+![Picture4](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg)
 
-*Flood disaster! Source: Chris Gallagher, unsplash.com*
+*Is this one of the good guys! Source: Yulia Matvienko, unsplash.com*
 
 
 ## Built With:
