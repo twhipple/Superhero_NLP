@@ -34,16 +34,12 @@ A Natural Language Processing Model based on a dataset from Kaggle Kernels.
 ## Repo Contents
 This repo contains the following:
 * README.md - this is where you are now!
-* Disaster_Tweets_Notebook.ipynb - the Jupyter Notebook containing the finalized code for this project.
-* Disaster_Tweets_Notebook_Again.ipynb - A notebook I used to play around, explore, and learn.
+* Superhero_NLP_Notebook.ipynb - the Jupyter Notebook containing the finalized code for this project.
 * LICENSE.md - the required license information.
-* sample_submission.csv
-* test.csv
-* train.csv
+* Data - superheroes_nlp_dataset.csv
 * CONTRIBUTING.md 
 * Images - contains the fun images to this repo.
-* my_submission.csv - my results after running the test through my model.
-
+* gitignore
 
 
 ## Libraries & Prerequisites
@@ -69,14 +65,28 @@ These are the libraries that I used in this project.
 
 
 ## Features
-These are the features of this dataset.
+There are 81 columns in this dataset. Below is a sample of some of the ones I used:
+* 0   name                              1448 non-null   object 
+* 1   real_name                         1301 non-null   object 
+* 2   full_name                         956 non-null    object 
+* 3   overall_score                     1450 non-null   object 
+* 4   history_text                      1360 non-null   object 
+* 5   powers_text                       1086 non-null   object 
+* 6   intelligence_score                1450 non-null   int64  
+* 7   strength_score                    1450 non-null   int64  
+* 8   speed_score                       1450 non-null   int64  
+* 9   durability_score                  1450 non-null   int64  
+* 10  power_score                       1450 non-null   int64  
+* 11  combat_score                      1450 non-null   int64  
+* 12  superpowers                       1450 non-null   object 
+* 13  alter_egos                        1450 non-null   object 
+* 14  aliases                           1450 non-null   object 
+* 15  place_of_birth                    788 non-null    object 
+* 16  first_appearance                  1247 non-null   object 
+* 17  creator                           1311 non-null   object 
+* 18  alignment                         1368 non-null   object
+The majority of the rest of the features are floats, describing the superhero powers as a number.
 
-Columns
-* id - a unique identifier for each tweet
-* text - the text of the tweet
-* location - the location the tweet was sent from (may be blank)
-* keyword - a particular keyword from the tweet (may be blank)
-* target - in train.csv only, this denotes whether a tweet is about a real disaster (1) or not (0)
 
 
 ## Models
@@ -85,13 +95,11 @@ Naive Bayes and Random Forest
 
 
 ## Conclusions
-I first tried to separate all the words in the text file, then get rid of numbers and symbols. Then I spent some time trying to get rid of the https links and all of the webpages. Finally I made all the words lowercase. I tried two different Tweet processing methods but neither of them worked - perhaps because the string of text had been changed to a list.
 
-Using the TfidfVectorizer along with my nltk cleaning that was somehow joined again to a string I was able to improve my testing accuracy for the Naive Bayes which went from 79.94% to 80.51%. The Random Forest testing accuracy also went up from 77.73% to 78.83%. Neither are great and both are only slight improvements, but nevertheless heading in the right direction. I still have some more cleaning issues to deal with - since a bunch of the word vectors seemed to be just letters.
 
 
 ## Future Work
-There is so much more I want to do! I still have a lot to learn about text pre-processing - including how to put it all into a nice easy function. I still need to clean out emoji's and other types of tweet junk.
+There is so much more I want to do! I still have a lot to learn about text pre-processing - including how to put it all into a nice easy function. 
 
 
 ![Picture3](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/marjanblan-8I-ht65iRww-unsplash%20(1).jpg)
@@ -118,4 +126,4 @@ Please read LICENSE.md for details
 
 
 ## Acknowledgments
-Kaggle - This dataset was created by the company figure-eight and originally shared on their ‘Data For Everyone’ website here.
+Kaggle - This dataset comes from the following: https://www.kaggle.com/jonathanbesomi/superheroes-nlp-dataset
