@@ -63,6 +63,10 @@ These are the libraries that I used in this project.
 * from sklearn.naive_bayes import MultinomialNB
 
 
+![graph1](https://raw.githubusercontent.com/twhipple/Superhero_NLP/main/Images/Superhero_powers.png)
+
+*Bar graph of Superheros ranked by total powers. Source: Superhero_NLP_Notebook.ipynb*
+
 
 ## Features
 There are 81 columns in this dataset. Below is a sample of some of the ones I used:
